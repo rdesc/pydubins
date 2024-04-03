@@ -32,7 +32,7 @@ cdef extern from "dubins.h":
     cdef int dubins_path(DubinsPath* path, double q0[3], double q1[3], double rho, int pathType);
     
     # Enough "glue code to make sure that the path can be sampled
-    ctypedef int (*DubinsPathSamplingCallback)(double q[3], double t, void* user_data)
+    ctypedef int (*DubinsPathSamplingCallback)(double q[3], double t, void* user_data) except? -1
     cdef int dubins_path_sample_many(DubinsPath* path, double stepSize, DubinsPathSamplingCallback cb, void* user_data)
     cdef int dubins_path_sample(DubinsPath* path, double t, double q[3])
 
