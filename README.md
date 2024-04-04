@@ -4,7 +4,7 @@ Forked repo from https://github.com/AndrewWalker/pydubins. See parent repo for f
 
 ## Installing
 
-To install for x86_64 and Python 3.9 run the command
+To install for Python 3.9 run the command
 `````bash
 pip install git+https://github.com/rdesc/pydubins.git
 `````
