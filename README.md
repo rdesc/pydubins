@@ -9,10 +9,9 @@ To install for x86_64 and Python 3.9 run the command
 pip install git+https://github.com/rdesc/pydubins.git
 `````
 
-To build from source, follow these steps:
+To build manually, follow these steps:
 1. Clone - `git clone https://github.com/rdesc/pydubins`
 2. Build - `python setup.py build_ext --inplace`
 3. Install with pip - `pip install .`
 
 The cython generated *dubins.c* file may need to be deleted and regenerated with cython. See https://github.com/AndrewWalker/pydubins/issues/16 for additional discussion.
-
