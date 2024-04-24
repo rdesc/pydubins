@@ -1,10 +1,10 @@
 # dubins
 
-Forked repo from https://github.com/AndrewWalker/pydubins. See parent repo for full documentation. This repo provides a working binary for python 3.9.
+Forked repo from https://github.com/AndrewWalker/pydubins. See parent repo for full documentation. This repo provides a fix for working with newer python versions (tested with Python 3.9, 3.10 and 3.11).
 
 ## Installing
 
-To install for Python 3.9 run the command
+To install run the command
 `````bash
 pip install git+https://github.com/rdesc/pydubins.git
 `````
